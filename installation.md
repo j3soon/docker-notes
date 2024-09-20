@@ -36,7 +36,7 @@ The commands above also installs [the Buildx plugin](https://docs.docker.com/bui
     Docker Desktop is a tool that includes a virtual machine (VM), a graphical user interface (GUI), and extra features, with the Docker engine running inside the VM. See [this post](https://forums.docker.com/t/difference-between-docker-desktop-and-docker-engine/124612) for more info.
 
 !!! note "`docker-ce` vs. `docker.io`"
-    For beginners, I recommend installing `docker-ce` for simplicity, as `docker.io` might not be the latest version in distributions that have reached the end of their life (EOL). However, if you are experienced and know what you are doing, using `docker.io` is also feasible. For more info, see [this post](https://stackoverflow.com/a/57678382).
+    For normal users, I recommend installing `docker-ce` for simplicity, as `docker.io` might not be the latest version in distributions that have reached the end of their life (EOL). However, if you are experienced and know what you are doing, using `docker.io` is also feasible. For more info, see [this post](https://stackoverflow.com/a/57678382).
 
 !!! note "`docker-compose-plugin` vs. `docker-compose`"
     Use `docker-compose-plugin` (Compose V2, with `docker compose` command) instead of `docker-compose` (Compose V1, with `docker-compose` command) since it is [deprecated](https://docs.docker.com/compose/migrate/#can-i-still-use-compose-v1-if-i-want-to). See [this post](https://stackoverflow.com/a/66516826) for more info.
@@ -70,6 +70,10 @@ Otherwise, if user not added to docker group:
 ```sh
 sudo docker run hello-world
 ```
+
+## NVIDIA GPU Support
+
+Follow the [NVIDIA GPU Support](./nvidia-gpu-support.md) page.
 
 ## Uninstall
 
