@@ -23,3 +23,22 @@ Reference:
 - [Docker: Temporary failure resolving 'deb.debian.org'](https://stackoverflow.com/a/68199803)
 
 > 2025-06-16.
+
+## Change Docker root directory
+
+TL;DR: Add `data-root` to docker configuration file `/etc/docker/daemon.json`, see more details below.
+
+Reference:
+
+- [Relocating the Docker root directory](https://www.ibm.com/docs/en/z-logdata-analytics/5.1.0?topic=software-relocating-docker-root-directory)
+
+> 2025-12-13.
+
+## Cross-compilation for ARM64
+
+Cross-compilation and multi-architecture images, details below.
+
+References:
+
+- [Multi-platform builds](https://docs.docker.com/build/building/multi-platform/)
+- [Running and Building ARM Docker Containers on x86](https://www.stereolabs.com/docs/docker/building-arm-container-on-x86)
